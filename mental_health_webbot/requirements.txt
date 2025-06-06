@@ -1,0 +1,6 @@
+Flask
+nltk
+spacy
+numpy<2
+scikit-learn
+google-generativeai

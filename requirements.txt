@@ -1,0 +1,5 @@
+flask
+Flask
+nltk
+spacy
+numpy==1.26.0

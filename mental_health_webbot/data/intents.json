@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "How are you"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What's on your mind?", "Hey! I'm here to listen."]
+    },
+    {
+      "tag": "sadness",
+      "patterns": ["I'm sad", "I feel down", "I'm feeling low", "I'm depressed"],
+      "responses": ["I'm sorry to hear that. It's okay to feel sad sometimes. Would you like to talk more about it?", "I understand. Please know that you're not alone. Is there anything specific bothering you?", "It sounds like you're going through a tough time. I'm here for you."]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": ["I'm anxious", "I feel stressed", "I'm worried", "My anxiety is high"],
+      "responses": ["Anxiety can be really challenging. Let's try some deep breathing exercises together. Would you like to?", "It sounds like you're feeling overwhelmed. What's on your mind?", "Take a deep breath. I'm here to help you through this."]
+    },
+    {
+      "tag": "stress",
+      "patterns": ["I'm stressed", "I have a lot of pressure", "I can't handle this stress"],
+      "responses": ["Stress can be tough. Have you tried any relaxation techniques lately?", "It sounds like you're under a lot of pressure. What's causing you the most stress right now?", "Remember to take breaks and practice self-care. You've got this."]
+    },
+    {
+      "tag": "self_harm",
+      "patterns": ["I want to hurt myself", "I'm thinking of self-harm", "I don't want to live anymore"],
+      "responses": ["Please know that you're not alone and there's help available. Please reach out to a crisis hotline or mental health professional immediately. Here are some resources: [Crisis Text Line: Text HOME to 741741], [National Suicide Prevention Lifeline: 1-800-273-8255].", "I'm here for you, but I'm not a substitute for professional help. Please talk to someone who can provide immediate support. Your life matters."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Take care.", "See you soon!", "Bye for now!"]
+    },
+    {
+      "tag": "stress",
+      "patterns": ["I'm so stressed with school", "Exams are stressing me out", "Feeling overwhelmed by coursework", "Too much pressure from studies"],
+      "responses": ["It sounds like you're carrying a heavy load. Remember to take breaks and practice self-care.", "Academic stress is real. What's one small thing you can do to ease the pressure right now?", "You're not alone in feeling this way. Many students experience stress. How can I support you?" ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": ["I feel lonely at university", "It's hard to make friends here", "I'm feeling isolated", "Nobody understands me"],
+      "responses": ["Loneliness can be a tough feeling, but it's important to remember that it's temporary. Have you considered joining a club or group on campus?", "Connecting with others can make a big difference. Is there anything specific that makes it hard to connect?", "I hear you. Sometimes just acknowledging the feeling can help. What kind of connection are you looking for?" ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["I've lost all motivation", "Can't seem to get anything done", "Feeling unmotivated for my studies", "How do I find motivation?"],
+      "responses": ["It's okay to feel a dip in motivation. What's one small step you can take today towards your goals?", "Sometimes motivation follows action. Let's break down a task into smaller, manageable parts.", "What usually helps you feel motivated? We can try to tap into that." ]
+    },
+    {
+      "tag": "burnout",
+      "patterns": ["I'm completely burnt out", "Feeling exhausted all the time", "Can't cope with the demands", "I think I'm experiencing burnout"],
+      "responses": ["Burnout is a serious concern. It's crucial to prioritize your well-being. What does rest look like for you right now?", "It sounds like you've been pushing yourself very hard. Taking a step back is a sign of strength, not weakness.", "Let's explore some ways to recharge. What activities help you relax and de-stress?" ]
+    },
+    {
+      "tag": "positive_reinforcement",
+      "patterns": ["I need some encouragement", "Tell me something positive", "Give me a boost", "I could use some positive words"],
+      "responses": ["You are capable of amazing things, and your efforts are truly commendable! Keep going!", "Believe in yourself and all that you are. You have the strength to overcome any challenge.", "Every step forward, no matter how small, is progress. You're doing great!" ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["What are you grateful for?", "Tell me about gratitude", "How can I practice gratitude?", "I want to feel more grateful"],
+      "responses": ["Practicing gratitude can shift your perspective. What's one small thing you're thankful for today?", "Gratitude helps us appreciate the good in our lives. Keeping a gratitude journal can be a wonderful way to start.", "Even in challenging times, there's always something to be grateful for. What comes to mind for you?" ]
+    },
+    {
+      "tag": "sleep_issues",
+      "patterns": ["I can't sleep", "Having trouble sleeping", "Insomnia", "Sleep problems"],
+      "responses": ["Sleep is so important for mental well-being. What's been keeping you awake?", "It sounds like you're struggling with sleep. Have you tried any relaxation techniques before bed?", "Sometimes a consistent routine can help. What does your evening look like?" ]
+    },
+    {
+      "tag": "academic_pressure",
+      "patterns": ["I'm overwhelmed by academic pressure", "Too much pressure from studies", "Can't handle the academic workload", "Exams are stressing me out"],
+      "responses": ["It sounds like you're feeling the weight of academic demands. Remember to prioritize self-care amidst your studies.", "Academic pressure can be intense. What's one small step you can take to manage your workload today?", "You're not alone in feeling this way. Many students experience academic stress. How can I support you?" ]
+    },
+    {
+      "tag": "self_doubt",
+      "patterns": ["I doubt myself a lot", "I'm not good enough", "Feeling insecure about my abilities", "Lack confidence"],
+      "responses": ["Self-doubt can be a challenging emotion, but remember that your worth isn't defined by your achievements. What's one thing you appreciate about yourself?", "It's common to experience self-doubt, but don't let it overshadow your strengths. What's a small step you can take to challenge those doubts?", "You are capable of amazing things. Let's focus on your strengths and celebrate your progress, no matter how small." ]
+    },
+    {
+      "tag": "family_expectations",
+      "patterns": ["My family expects too much from me", "Feeling pressured by family expectations", "Can't meet my family's standards", "Struggling with parental expectations"],
+      "responses": ["It sounds like you're carrying a heavy burden of family expectations. Remember that your happiness and well-being are important too.", "Navigating family expectations can be tough. Have you considered communicating your feelings and boundaries with them?", "Your feelings are valid. Let's explore ways to balance your aspirations with external pressures." ]
+    },
+    {
+      "tag": "overthinking",
+      "patterns": ["I overthink everything", "Can't stop thinking about things", "My mind races constantly", "Stuck in a loop of thoughts"],
+      "responses": ["Overthinking can be exhausting. Let's try a grounding exercise to bring your focus back to the present moment. Would you like to?", "It sounds like your mind is working overtime. What's one small action you can take to break the cycle of overthinking?", "Sometimes, acknowledging the thoughts without judgment can help. What's one thought that's been on your mind?" ]
+    },
+    {
+      "tag": "procrastination",
+      "patterns": ["I keep procrastinating", "Can't seem to start my tasks", "Always putting things off", "Struggling with procrastination"],
+      "responses": ["Procrastination can be a common challenge. Let's break down your task into smaller, manageable steps. What's the very first thing you need to do?", "It sounds like you're finding it hard to get started. What's one small reward you can give yourself after completing a task?", "Sometimes, understanding the root cause of procrastination can help. What's holding you back from starting?" ]
+    }
+  ]
+}
