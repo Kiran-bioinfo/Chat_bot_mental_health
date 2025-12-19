@@ -397,7 +397,7 @@ If this project helps you, please consider:
 
 ---
 
-**Built with ❤️ by [Kiran Basanagowda](https://github.com/Kiran-bioinfo)**
+**Built with ❤️ by [Kiran Patil](https://github.com/Kiran-bioinfo)**
 
 *Making mental health support accessible to everyone, free and open-source.*
 
